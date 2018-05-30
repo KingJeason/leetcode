@@ -9,9 +9,9 @@ var removeDuplicates = function (nums) {
             nums[j + 1] = nums[i]
             j++
         }
+        
     }
     return j + 1
-
 };
 let arr = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
 console.log(removeDuplicates(arr))
